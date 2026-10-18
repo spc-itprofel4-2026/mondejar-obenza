@@ -1,0 +1,11 @@
+{
+  "entity": "Beneficiary",
+  "fields": [
+    { "name": "fullName", "type": "text", "required": true },
+    { "name": "address", "type": "longtext", "required": false },
+    { "name": "birthDate", "type": "date", "required": true },
+    { "name": "monthlyIncome", "type": "decimal", "required": true },
+    { "name": "isVerified", "type": "yesno", "required": false },
+    { "name": "registeredAt", "type": "datetime", "required": true }
+  ]
+}
