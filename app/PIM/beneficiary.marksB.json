@@ -1,0 +1,8 @@
+{
+  "entity": "Beneficiary",
+  "marks": [
+    { "target": "Beneficiary", "mark": "tableName", "value": "beneficiary_dedup_list" },
+    { "target": "registeredAt", "mark": "unique", "value": true },
+    { "target": "fullName", "mark": "size", "value": 120 }
+  ]
+}

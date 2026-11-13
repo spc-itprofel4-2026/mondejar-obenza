@@ -1,0 +1,8 @@
+{
+  "entity": "Beneficiary",
+  "marks": [
+    { "target": "Beneficiary", "mark": "tableName", "value": "dxcloud_beneficiaries" },
+    { "target": "fullName", "mark": "unique", "value": true },
+    { "target": "fullName", "mark": "size", "value": 80 }
+  ]
+}
