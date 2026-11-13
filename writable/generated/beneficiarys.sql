@@ -1,6 +1,6 @@
 CREATE TABLE beneficiarys (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    full_name VARCHAR(100) NOT NULL,
+    full_name VARCHAR(255) NOT NULL,
     address TEXT,
     birth_date DATE NOT NULL,
     monthly_income DECIMAL(10,2) NOT NULL,
